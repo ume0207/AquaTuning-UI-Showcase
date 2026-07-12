@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#eaf5ff" />
+    <meta name="description" content="Aqua Tuning コミュニティポータルのUI比較ページです。" />
+    <title>Aqua Tuning — UI Select</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/showcase.css" />
+  </head>
+  <body>
+    <header class="showcase-header">
+      <a class="showcase-brand" href="/">
+        <img src="/assets/aqua-tuning-mark.png" alt="" />
+        <span>Aqua Tuning</span>
+      </a>
+      <p>UI DESIGN SELECT</p>
+    </header>
+
+    <main class="showcase-main">
+      <div class="showcase-heading">
+        <p>Community portal / 2 directions</p>
+        <h1>お好みの画面を<br />お選びください。</h1>
+      </div>
+
+      <section class="concept-grid" aria-label="UIデザイン一覧">
+        <article class="concept-card concept-guild">
+          <header>
+            <div><span>01</span><h2>Soft Guild</h2></div>
+            <p>LIGHT BLUE / LEFT NAVIGATION</p>
+          </header>
+          <div class="preview-browser">
+            <div class="browser-bar"><i></i><i></i><i></i><span>aquatuning / talk</span></div>
+            <iframe src="/guild/?tab=talk&room=welcome" title="Soft Guild UIプレビュー" loading="eager"></iframe>
+          </div>
+          <a href="/guild/?tab=talk&room=welcome">このUIを操作する <span>→</span></a>
+        </article>
+
+        <article class="concept-card concept-ripple">
+          <header>
+            <div><span>02</span><h2>Ripple Studio</h2></div>
+            <p>WATER FLOW / ORGANIC NAVIGATION</p>
+          </header>
+          <div class="preview-browser">
+            <div class="browser-bar"><i></i><i></i><i></i><span>aquatuning / philosophy</span></div>
+            <iframe src="/ripple/?tab=intro" title="Ripple Studio UIプレビュー" loading="lazy"></iframe>
+          </div>
+          <a href="/ripple/?tab=intro">このUIを操作する <span>→</span></a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
